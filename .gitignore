@@ -1,0 +1,6 @@
+.vs/
+APPPInCSharp_FactoryPattern.Console/bin/
+APPPInCSharp_FactoryPattern.Console/obj/
+APPPInCSharp_FactoryPattern.UnitTests/obj/
+packages/
+APPPInCSharp_FactoryPattern.UnitTests/bin/
