@@ -58,9 +58,16 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShapeFactoryVersion2Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\APPPInCSharp_FactoryPattern.Console\APPPInCSharp_FactoryPattern.Console.csproj">
+      <Project>{1F807F35-CDD2-48E6-8DB4-D1173DBD7493}</Project>
+      <Name>APPPInCSharp_FactoryPattern.Console</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
